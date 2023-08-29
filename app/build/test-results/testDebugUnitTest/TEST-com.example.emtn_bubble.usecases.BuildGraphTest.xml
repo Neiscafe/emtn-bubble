@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.emtn_bubble.usecases.BuildGraphTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-29T17:30:27" hostname="DESKTOP-PRE7NEB" time="0.011">
+  <properties/>
+  <testcase name="calculateEmptyGraph" classname="com.example.emtn_bubble.usecases.BuildGraphTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

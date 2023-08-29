@@ -1,0 +1,2 @@
+08-29 13:45:54.368  9150  9173 I TestRunner: started: useAppContext(com.example.emtn_bubble.ExampleInstrumentedTest)
+08-29 13:45:54.371  9150  9173 I TestRunner: finished: useAppContext(com.example.emtn_bubble.ExampleInstrumentedTest)
