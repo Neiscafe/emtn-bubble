@@ -27,6 +27,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -51,7 +52,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_directory_selection&quot;: &quot;E:/Repositories/emtn-bubble/app/src/test/java/com/example/emtn_bubble&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Repositories/DesafioFilmes/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Repositories/emtn-bubble&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -60,6 +61,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Repositories\emtn-bubble\app\src\main\java\com\example\emtn_bubble\ui" />
       <recent name="E:\Repositories\emtn-bubble\app\src\main\java\com\example\emtn_bubble\domain" />
       <recent name="E:\Repositories\emtn-bubble\app\src\test\java\com\example\emtn_bubble\usecases" />
     </key>
@@ -70,7 +72,7 @@
       <recent name="com.example.emtn_bubble.usecases" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BuildGraphTest.calculateEmptyGraph">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="emtn-bubble.app.main" />
       <option name="DEPLOY" value="true" />

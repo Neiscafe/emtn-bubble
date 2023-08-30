@@ -5,6 +5,15 @@
         <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
+    <style name="ToolBar" parent="@style/Widget.MaterialComponents.Toolbar.Primary">
+        <item name="title">@string/lorem_ipsum</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
     <style name="Widget.Emtnbubble.AppWidget.InnerView" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>

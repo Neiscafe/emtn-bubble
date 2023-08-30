@@ -20,10 +20,6 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.emtn_bubble.app-merged_res-48:/layout_fragment_second.xml.flat",
-        "source": "com.example.emtn_bubble.app-main-50:/layout/fragment_second.xml"
-    },
-    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -52,8 +48,16 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\xml_your_emotions_widget_info.xml.flat",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\xml\\your_emotions_widget_info.xml"
+    },
+    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\layout_your_emotions_widget.xml.flat",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\your_emotions_widget.xml"
     },
     {
         "merged": "com.example.emtn_bubble.app-merged_res-48:/layout_activity_main.xml.flat",
@@ -68,12 +72,24 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\drawable-v21_app_widget_inner_view_background.xml.flat",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\drawable-v21\\app_widget_inner_view_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\layout_emotion_list_item.xml.flat",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\emotion_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\layout_fragment_first.xml.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\drawable-v21_app_widget_background.xml.flat",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\drawable-v21\\app_widget_background.xml"
     },
     {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -88,23 +104,15 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\drawable-nodpi\\example_appwidget_preview.png"
+    },
+    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.emtn_bubble.app-merged_res-48:/menu_menu_main.xml.flat",
-        "source": "com.example.emtn_bubble.app-main-50:/menu/menu_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.emtn_bubble.app-merged_res-48:/layout_fragment_first.xml.flat",
-        "source": "com.example.emtn_bubble.app-main-50:/layout/fragment_first.xml"
-    },
-    {
-        "merged": "com.example.emtn_bubble.app-merged_res-48:/navigation_nav_graph.xml.flat",
-        "source": "com.example.emtn_bubble.app-main-50:/navigation/nav_graph.xml"
     }
 ]

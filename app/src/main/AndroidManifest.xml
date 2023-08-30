@@ -24,11 +24,6 @@
                 android:resource="@xml/your_emotions_widget_info" />
         </receiver>
 
-        <service
-            android:name=".data.MyService"
-            android:enabled="true"
-            android:exported="true" />
-
         <activity
             android:name=".ui.MainActivity"
             android:exported="true"

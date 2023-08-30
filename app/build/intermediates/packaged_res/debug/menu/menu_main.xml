@@ -3,8 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.emtn_bubble.ui.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_view_partner"
+        android:title="Ver parceiro"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_to_screen"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="Adicionar à tela"
+        app:showAsAction="always" />
 </menu>

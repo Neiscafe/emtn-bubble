@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Users\Guilherme\.gradle\caches\transforms-3\8e5b2865015de6af66ed22a0b45f4b38\transformed\viewbinding-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\Guilherme\.gradle\caches\transforms-3\bf5aaaac1f7dbe88411712e193dc1405\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Users\Guilherme\.gradle\caches\transforms-3\c483753645654d2a229c64b44676eb35\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -74,8 +74,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Guilher
 	xmlns:android
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:5:5-38:19
+INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:5:5-38:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Guilherme\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Guilherme\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Guilherme\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -116,26 +116,44 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Guilherme\.gradle\
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:13:9-48
 	android:dataExtractionRules
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.emtn_bubble.ui.MainActivity
+receiver#com.example.emtn_bubble.ui.YourEmotionsWidget
 ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:15:9-25:20
-	android:label
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:18:13-45
 	android:exported
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:16:13-50
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:18:13-20:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:19:17-84
+	android:name
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:19:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:22:13-24:69
+	android:resource
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:24:17-66
+	android:name
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:23:17-58
+activity#com.example.emtn_bubble.ui.MainActivity
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:27:9-37:20
+	android:label
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:29:13-36
 	android:theme
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:19:13-52
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:31:13-52
 	android:name
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:16:13-44
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:28:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:35:27-74
 uses-sdk
 INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml

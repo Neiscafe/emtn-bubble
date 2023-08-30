@@ -4,38 +4,44 @@ package com.example.emtn_bubble.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.widget.NestedScrollView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.db.williamchart.view.BarChartView;
 import com.example.emtn_bubble.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentFirstBinding implements ViewBinding {
   @NonNull
-  private final NestedScrollView rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonFirst;
+  public final BarChartView emotionsChart;
 
   @NonNull
-  public final TextView textviewFirst;
+  public final RecyclerView emotionsLista;
 
-  private FragmentFirstBinding(@NonNull NestedScrollView rootView, @NonNull Button buttonFirst,
-      @NonNull TextView textviewFirst) {
+  @NonNull
+  public final FloatingActionButton fabAddEmotion;
+
+  private FragmentFirstBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BarChartView emotionsChart, @NonNull RecyclerView emotionsLista,
+      @NonNull FloatingActionButton fabAddEmotion) {
     this.rootView = rootView;
-    this.buttonFirst = buttonFirst;
-    this.textviewFirst = textviewFirst;
+    this.emotionsChart = emotionsChart;
+    this.emotionsLista = emotionsLista;
+    this.fabAddEmotion = fabAddEmotion;
   }
 
   @Override
   @NonNull
-  public NestedScrollView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -60,19 +66,26 @@ public final class FragmentFirstBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button_first;
-      Button buttonFirst = ViewBindings.findChildViewById(rootView, id);
-      if (buttonFirst == null) {
+      id = R.id.emotions_chart;
+      BarChartView emotionsChart = ViewBindings.findChildViewById(rootView, id);
+      if (emotionsChart == null) {
         break missingId;
       }
 
-      id = R.id.textview_first;
-      TextView textviewFirst = ViewBindings.findChildViewById(rootView, id);
-      if (textviewFirst == null) {
+      id = R.id.emotions_lista;
+      RecyclerView emotionsLista = ViewBindings.findChildViewById(rootView, id);
+      if (emotionsLista == null) {
         break missingId;
       }
 
-      return new FragmentFirstBinding((NestedScrollView) rootView, buttonFirst, textviewFirst);
+      id = R.id.fab_add_emotion;
+      FloatingActionButton fabAddEmotion = ViewBindings.findChildViewById(rootView, id);
+      if (fabAddEmotion == null) {
+        break missingId;
+      }
+
+      return new FragmentFirstBinding((ConstraintLayout) rootView, emotionsChart, emotionsLista,
+          fabAddEmotion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
