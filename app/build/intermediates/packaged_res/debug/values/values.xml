@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="green">#A5D6A7</color>
+    <color name="grey">#888A88</color>
     <color name="light_blue_200">#FF81D4FA</color>
     <color name="light_blue_50">#FFE1F5FE</color>
     <color name="light_blue_600">#FF039BE5</color>
     <color name="light_blue_900">#FF01579B</color>
+    <color name="orange">#FFCC80</color>
+    <color name="pink">#F48FB1</color>
+    <color name="purple">#B39DDB</color>
+    <color name="red">#D56262</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFF59D</color>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="widget_margin">0dp</dimen>
     <string name="action_settings">Settings</string>
@@ -14,6 +21,7 @@
     <string name="app_widget_description">This is an app widget description</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="image">Image</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus

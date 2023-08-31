@@ -1464,6 +1464,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_blue_200
@@ -2095,6 +2097,8 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2103,6 +2107,8 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2118,6 +2124,7 @@ color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2987,6 +2994,14 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable color_square_blue
+drawable color_square_green
+drawable color_square_grey
+drawable color_square_orange
+drawable color_square_pink
+drawable color_square_purple
+drawable color_square_red
+drawable color_square_yellow
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3186,6 +3201,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id bt_add_emotion
 id buttonPanel
 id button_second
 id cache_measures
@@ -3271,6 +3287,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id et_emotion_name
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3566,6 +3583,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tl_emotion_colors
 id toggle
 id toolbar
 id top
@@ -3798,6 +3816,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout popup_window_add_emotion
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3861,6 +3880,7 @@ string fab_transformation_sheet_behavior
 string first_fragment_label
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string image
 string item_view_role_description
 string lorem_ipsum
 string m3_ref_typeface_brand_medium

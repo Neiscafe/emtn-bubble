@@ -4,8 +4,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.PopupWindow
 import android.widget.Toast
-import android.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.emtn_bubble.R
@@ -26,12 +26,26 @@ class YourFeelingsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+         setUpToolbarClicks()
+        setUpFabClick()
+    }
+
+    private fun setUpFabClick(){
+        binding.fabAddEmotion.setOnClickListener {
+             val popup = AddFeelingDialog()
+            popup.show(parentFragmentManager, null)
+        }
+    }
+
+    private fun setUpToolbarClicks() {
         binding.toolbar.setOnMenuItemClickListener {
-            when(it.itemId){
+            when (it.itemId) {
                 R.id.action_add_to_screen -> {
-                    Toast.makeText(requireContext(), "Adicionando à tela!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), "Adicionando à tela!", Toast.LENGTH_SHORT)
+                        .show()
                     true
                 }
+
                 else -> false
             }
         }

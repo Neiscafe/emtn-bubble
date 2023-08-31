@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\fragment_second.xml"
     },
     {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-mergeDebugResources-47:\\layout\\fragment_partner_feelings.xml",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\fragment_partner_feelings.xml"
+    },
+    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-mergeDebugResources-47:\\layout\\content_main.xml",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\content_main.xml"
     },
@@ -12,8 +16,12 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\emotion_list_item.xml"
     },
     {
-        "merged": "com.example.emtn_bubble.app-mergeDebugResources-47:/layout/fragment_partner_feelings.xml",
-        "source": "com.example.emtn_bubble.app-main-50:/layout/fragment_partner_feelings.xml"
+        "merged": "com.example.emtn_bubble.app-mergeDebugResources-47:/layout/popup_window_add_emotion.xml",
+        "source": "com.example.emtn_bubble.app-main-50:/layout/popup_window_add_emotion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-mergeDebugResources-47:\\layout\\fragment_your_feelings.xml",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\fragment_your_feelings.xml"
     },
     {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-mergeDebugResources-47:\\layout\\activity_main.xml",
@@ -24,15 +32,11 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\your_emotions_widget.xml"
     },
     {
-        "merged": "com.example.emtn_bubble.app-mergeDebugResources-47:/layout/activity_main.xml",
-        "source": "com.example.emtn_bubble.app-main-50:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-mergeDebugResources-47:\\layout\\fragment_first.xml",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "com.example.emtn_bubble.app-mergeDebugResources-47:/layout/fragment_your_feelings.xml",
-        "source": "com.example.emtn_bubble.app-main-50:/layout/fragment_your_feelings.xml"
+        "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-mergeDebugResources-47:\\layout\\popup_window_add_emotion.xml",
+        "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\layout\\popup_window_add_emotion.xml"
     }
 ]

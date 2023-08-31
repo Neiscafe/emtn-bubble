@@ -1463,6 +1463,8 @@ int color error_color_material_dark 0x7f050058
 int color error_color_material_light 0x7f050059
 int color foreground_material_dark 0x7f05005a
 int color foreground_material_light 0x7f05005b
+int color green 0x7f0502ea
+int color grey 0x7f0502eb
 int color highlighted_text_material_dark 0x7f05005c
 int color highlighted_text_material_light 0x7f05005d
 int color light_blue_200 0x7f05005e
@@ -2094,6 +2096,8 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f0502cf
 int color mtrl_textinput_hovered_box_stroke_color 0x7f0502d0
 int color notification_action_color_filter 0x7f0502d1
 int color notification_icon_bg_color 0x7f0502d2
+int color orange 0x7f0502ec
+int color pink 0x7f0502ed
 int color primary_dark_material_dark 0x7f0502d3
 int color primary_dark_material_light 0x7f0502d4
 int color primary_material_dark 0x7f0502d5
@@ -2102,6 +2106,8 @@ int color primary_text_default_material_dark 0x7f0502d7
 int color primary_text_default_material_light 0x7f0502d8
 int color primary_text_disabled_material_dark 0x7f0502d9
 int color primary_text_disabled_material_light 0x7f0502da
+int color purple 0x7f0502ee
+int color red 0x7f0502ef
 int color ripple_material_dark 0x7f0502db
 int color ripple_material_light 0x7f0502dc
 int color secondary_text_default_material_dark 0x7f0502dd
@@ -2117,6 +2123,7 @@ int color switch_thumb_normal_material_light 0x7f0502e6
 int color tooltip_background_dark 0x7f0502e7
 int color tooltip_background_light 0x7f0502e8
 int color white 0x7f0502e9
+int color yellow 0x7f0502f0
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
 int dimen abc_action_bar_default_height_material 0x7f060002
@@ -2986,6 +2993,14 @@ int drawable btn_radio_off_mtrl 0x7f070080
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f070081
 int drawable btn_radio_on_mtrl 0x7f070082
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070083
+int drawable color_square_blue 0x7f0700e3
+int drawable color_square_green 0x7f0700e4
+int drawable color_square_grey 0x7f0700e5
+int drawable color_square_orange 0x7f0700e6
+int drawable color_square_pink 0x7f0700e7
+int drawable color_square_purple 0x7f0700e8
+int drawable color_square_red 0x7f0700e9
+int drawable color_square_yellow 0x7f0700ea
 int drawable design_fab_background 0x7f070084
 int drawable design_ic_visibility 0x7f070085
 int drawable design_ic_visibility_off 0x7f070086
@@ -3185,6 +3200,7 @@ int id bounce 0x7f080065
 int id bounceBoth 0x7f080066
 int id bounceEnd 0x7f080067
 int id bounceStart 0x7f080068
+int id bt_add_emotion 0x7f08020d
 int id buttonPanel 0x7f080069
 int id button_second 0x7f08006a
 int id cache_measures 0x7f08006b
@@ -3270,6 +3286,7 @@ int id end 0x7f0800ba
 int id endToStart 0x7f0800bb
 int id enterAlways 0x7f0800bc
 int id enterAlwaysCollapsed 0x7f0800bd
+int id et_emotion_name 0x7f08020e
 int id exitUntilCollapsed 0x7f0800be
 int id expand_activities_button 0x7f0800bf
 int id expanded_menu 0x7f0800c0
@@ -3565,6 +3582,7 @@ int id time 0x7f0801e1
 int id title 0x7f0801e2
 int id titleDividerNoCustom 0x7f0801e3
 int id title_template 0x7f0801e4
+int id tl_emotion_colors 0x7f08020f
 int id toggle 0x7f0801e5
 int id toolbar 0x7f0801e6
 int id top 0x7f0801e7
@@ -3797,6 +3815,7 @@ int layout notification_template_custom_big 0x7f0b0066
 int layout notification_template_icon_group 0x7f0b0067
 int layout notification_template_part_chronometer 0x7f0b0068
 int layout notification_template_part_time 0x7f0b0069
+int layout popup_window_add_emotion 0x7f0b006f
 int layout select_dialog_item_material 0x7f0b006a
 int layout select_dialog_multichoice_material 0x7f0b006b
 int layout select_dialog_singlechoice_material 0x7f0b006c
@@ -3860,6 +3879,7 @@ int string fab_transformation_sheet_behavior 0x7f110031
 int string first_fragment_label 0x7f110032
 int string hide_bottom_view_on_scroll_behavior 0x7f110033
 int string icon_content_description 0x7f110034
+int string image 0x7f1100ab
 int string item_view_role_description 0x7f110035
 int string lorem_ipsum 0x7f110036
 int string m3_ref_typeface_brand_medium 0x7f110037
