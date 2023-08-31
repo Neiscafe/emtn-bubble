@@ -16,12 +16,11 @@ drawable app_widget_inner_view_background
 drawable example_appwidget_preview
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id FirstFragment
-id SecondFragment
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
+id PartnerFeelingsFragment
+id YourFeelingsFragment
+id action_PartnerFeelings_to_YourFeelings
+id action_YourFeelings_to_PartnerFeelings
 id action_add_to_screen
-id action_view_partner
 id appwidget_text
 id button_second
 id emotions_chart
@@ -35,8 +34,8 @@ id toolbar
 layout activity_main
 layout content_main
 layout emotion_list_item
-layout fragment_first
-layout fragment_second
+layout fragment_partner_feelings
+layout fragment_your_feelings
 layout your_emotions_widget
 menu menu_main
 mipmap ic_launcher
