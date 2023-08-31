@@ -116,12 +116,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Guilherme\.gradle\
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:13:9-48
 	android:dataExtractionRules
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:7:9-65
-receiver#com.example.emtn_bubble.ui.YourEmotionsWidget
+receiver#com.example.emtn_bubble.ui.widgets.YourEmotionsWidget
 ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:15:9-25:20
 	android:exported
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:16:13-50
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:16:13-58
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
 ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:18:13-20:29
 action#android.appwidget.action.APPWIDGET_UPDATE
@@ -134,7 +134,7 @@ ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:22:13-24
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:24:17-66
 	android:name
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:23:17-58
-activity#com.example.emtn_bubble.ui.MainActivity
+activity#com.example.emtn_bubble.ui.screens.feeling_screens.MainActivity
 ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:27:9-37:20
 	android:label
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:30:13-45
@@ -143,7 +143,7 @@ ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:27:9-37:
 	android:theme
 		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:31:13-52
 	android:name
-		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:28:13-44
+		ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:28:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from E:\Repositories\emtn-bubble\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN

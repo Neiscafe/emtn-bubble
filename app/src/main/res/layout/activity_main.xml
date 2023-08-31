@@ -7,21 +7,6 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.screens.feeling_screens.MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
-
-        <com.google.android.material.appbar.MaterialToolbar
-            app:title="emt-bubble"
-            app:menu="@menu/menu_main"
-            app:navigationIcon="@drawable/ic_launcher_foreground"
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            style="@style/ToolBar" />
-    </com.google.android.material.appbar.AppBarLayout>
-
     <include layout="@layout/content_main" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

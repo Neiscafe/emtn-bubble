@@ -22,15 +22,15 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.toolbar)
+//        setSupportActionBar(binding.toolbar)
 
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-        binding.toolbar.setNavigationOnClickListener {
-            navController.navigate(R.id.PartnerFeelingsFragment)
-        }
+//        binding.toolbar.setNavigationOnClickListener {
+//            navController.navigate(R.id.PartnerFeelingsFragment)
+//        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

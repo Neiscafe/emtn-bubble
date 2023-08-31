@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "com.example.emtn_bubble.app-merged_res-48:/layout_fragment_partner_feelings.xml.flat",
+        "source": "com.example.emtn_bubble.app-main-50:/layout/fragment_partner_feelings.xml"
+    },
+    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\xml_your_emotions_widget_info.xml.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\xml\\your_emotions_widget_info.xml"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\drawable-v21_app_widget_inner_view_background.xml.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\drawable-v21\\app_widget_inner_view_background.xml"
+    },
+    {
+        "merged": "com.example.emtn_bubble.app-merged_res-48:/layout_fragment_your_feelings.xml.flat",
+        "source": "com.example.emtn_bubble.app-main-50:/layout/fragment_your_feelings.xml"
     },
     {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\layout_emotion_list_item.xml.flat",
@@ -112,7 +120,15 @@
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.emtn_bubble.app-merged_res-48:/menu_menu_main.xml.flat",
+        "source": "com.example.emtn_bubble.app-main-50:/menu/menu_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Guilherme\\.gradle\\daemon\\8.0\\com.example.emtn_bubble.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.emtn_bubble.app-merged_res-48:/navigation_nav_graph.xml.flat",
+        "source": "com.example.emtn_bubble.app-main-50:/navigation/nav_graph.xml"
     }
 ]
