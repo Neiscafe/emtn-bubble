@@ -1,7 +1,6 @@
-package com.example.emtn_bubble.ui
+package com.example.emtn_bubble.ui.screens.feeling_screens
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -29,10 +28,9 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-//        binding.fab.setOnClickListener { view ->
-//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                .setAction("Action", null).show()
-//        }
+        binding.toolbar.setNavigationOnClickListener {
+            navController.navigate(R.id.PartnerFeelingsFragment)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -46,8 +44,10 @@ class MainActivity : AppCompatActivity() {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.action_add_to_screen -> true
-            R.id.action_view_partner -> true
+            R.id.action_add_to_screen -> {
+                //operacao aqui
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

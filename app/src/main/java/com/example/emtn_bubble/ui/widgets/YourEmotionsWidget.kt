@@ -1,4 +1,4 @@
-package com.example.emtn_bubble.ui
+package com.example.emtn_bubble.ui.widgets
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider

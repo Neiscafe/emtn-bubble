@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/YourFeelingsFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.emtn_bubble.ui.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:id="@+id/YourFeelingsFragment"
+        android:name="com.example.emtn_bubble.ui.screens.feeling_screens.YourFeelingsFragment"
+        android:label="YourFeelings"
+        tools:layout="@layout/fragment_your_feelings">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_YourFeelings_to_PartnerFeelings"
+            app:destination="@id/PartnerFeelingsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.emtn_bubble.ui.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:id="@+id/PartnerFeelingsFragment"
+        android:name="com.example.emtn_bubble.ui.screens.feeling_screens.PartnerFeelingsFragment"
+        android:label="PartnerFeelings"
+        tools:layout="@layout/fragment_partner_feelings">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_PartnerFeelings_to_YourFeelings"
+            app:destination="@id/YourFeelingsFragment" />
     </fragment>
 </navigation>
